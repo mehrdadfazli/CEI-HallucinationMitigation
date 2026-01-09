@@ -124,6 +124,10 @@ python eval/eval_gpt4.py --api-key <your-openai-api-key> --response results/MMHa
 
 ## Reference
 [CHAIR data](https://cocodataset.org/#home)
+
 [AMBER](https://github.com/junyangwang0410/AMBER)
+
 [MMHal-Bench](https://huggingface.co/datasets/Shengcao1006/MMHal-Bench)
+
 [CAAC](https://github.com/mehrdadfazli/CAAC)
+
