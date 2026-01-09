@@ -1,0 +1,42 @@
+{
+    "model_type": "llava-next",
+    "load_in_8bit": true,
+    "cache_dir": "HF cache dir (optional)",
+  
+    "use_CEI": true,
+    "do_sample": false,
+    "num_beams": 1,
+    "max_new_tokens": 512,
+  
+    "context_embedding_idx": -1,
+    "context_embedding_layer": -1,
+    "injection_layer": 10,                       
+  
+    "dynamic_mode": "two_pass",
+    "alpha_method": "cosine",
+    "K_mass": 80,
+    "start_layer": 1,
+    "topK_mass_start_layer": 20,         
+  
+    "alpha": 0.3,
+    "tau": 0.20,
+    "T": 0.03,
+    "tau_lo": 0.10,
+    "tau_hi": 0.30,
+    "beta": 0.5,
+  
+    "chair_data_path": "path/to/coco2014/val2014",
+    "amber_path": "path/to/AMBER",
+    "queries_json": "data/query/query_generative.json",
+    "annotations_json": "data/annotations.json",
+    "image_dirname": "image",
+    "num_images": 500,
+    "random_seed": 42,
+  
+    "opera_results": false,
+
+    "gamma": 0.0,
+    "delta": 0.5,
+    "repetition_penalty": 1.1,
+    "KV_cache": true
+  }
